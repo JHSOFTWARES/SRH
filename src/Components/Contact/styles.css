@@ -1,0 +1,69 @@
+.contact{
+    background:#354046;
+}
+.contact .container{
+    margin: 0;
+}
+.contact .contact-span{
+    color:#fff;
+    font-size: 13px;
+}
+.contact .col-md-4{
+    padding: 1.3rem
+}
+.contact .col-md-4 #contact-anchor{
+    background: #fff;
+    padding: 5px;
+    color: #354046;
+    border-radius: 5px;
+}
+.contact .col-md-4 .contact-logo{
+    height: 40px;
+    width: 60px;
+}
+.contact .col-md-4 #contact-mail{
+    text-transform: none;
+}
+.contact .col-md-4:nth-child(1) a{
+    font-size: 2rem;
+    color:#fff;
+}
+.contact a{
+    font-size: 1rem;
+    color:#fff;
+    display: block;
+}
+ 
+.contact .col-md-4:nth-child(1) a span{
+    color:#0059A3;
+    font-weight: bold;
+}
+   
+.contact h3{
+    color:#fff;
+    font-size: 2rem;
+}
+  
+.contact a:hover{
+    color:#0188DF;
+}
+.contact .row .contact-map{
+    height: 12rem;
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+    overflow: hidden;
+} 
+.contact .credit{
+    color:#fff;
+    width:80%;
+    margin:0;
+    padding:2rem 0;
+    padding-bottom: 2rem;
+    border-top: .1rem solid #ccc !important;
+}
+
+@media screen and (max-width: 991px){
+    .contact .col-md-4 #contact-anchor{
+        font-size: 1.5rem;
+    }
+}

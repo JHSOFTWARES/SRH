@@ -1,0 +1,50 @@
+nav div img{
+    height: 40px;
+    width: 60px;
+}
+.navbar-custom{
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: #0059A3;
+}
+.navbar-custom div .navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar-custom div .navbar-collapse{
+    font-size: 1.2rem;
+}
+.navbar-custom div span{
+    color: #354046;
+}
+.navbar-toggler{
+    color: transparent;
+    border-radius: 0 !important;
+    height: 2rem;
+    width: 3rem;
+    background-image:
+    linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0) 60%,
+        rgba(255, 255, 255, 1) 60%,
+        rgba(255, 255, 255, 1) 75%,            
+        rgba(255, 255, 255, 0) 75%                       
+    ),
+    linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0) 25%,
+        rgba(255, 255, 255, 1) 25%,
+        rgba(255, 255, 255, 1) 40%,            
+        rgba(255, 255, 255, 0) 40%                       
+    ),
+    linear-gradient(
+        135deg,
+        #0059A3, 
+        #3b85c2             
+    ) ;
+}
+
+@media screen and (max-width: 991px){
+    .navbar-custom div .navbar-brand{
+        font-size: 1.3rem;
+    }
+}
