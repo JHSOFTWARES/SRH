@@ -4,7 +4,7 @@ import BtnSlider from './BtnSlider'
 
 export default function Slider() {
     const [slideIndex, setSlideIndex] = useState(1)
-    const sliderLength = 4;
+    const sliderLength = 5;
     const nextSlide = () => {
         if(slideIndex !== sliderLength){
             setSlideIndex(slideIndex + 1)
